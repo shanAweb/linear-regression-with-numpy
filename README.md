@@ -1,1 +1,1 @@
-#This project is all about linear regression model with numpy only, building up things from scratch
+# This project is all about linear regression model with numpy only, building up things from scratch
