@@ -13,7 +13,7 @@ class LinearRegression:
         self.bias = 0
 
         for _ in range(self.n_iterations):
-            y_pred = np.dot(X, self.weights + self.bias)
+            y_pred = np.dot(X, self.weights) + self.bias
             loss = np.mean((y_pred - y) ** 2)
             self.loss_history.append(loss)
             dw = (1 / n_sample) * np.dot(X.T, (y_pred - y))
